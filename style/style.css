@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero, .random-info, .quote-container {
+  padding: 0 100px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+}
+
+.random-info {
+  margin-bottom: 20px;
+}
+
+.info-title {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: bolder;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.main-text {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.hero-main {
+  display: flex;
+  margin: 32px 0;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: flex-end;
+}
+
+.description {
+  margin-right: 100px;
+}
+
+.info-img {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+  gap: 42px;
+}
+
+.info-img img {
+  width: 150px;
+  border: 2.5px solid #3882f6;
+  border-radius: 16px;
+}
+
+.quote-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+}
+
+.quote {
+  padding: 0 24px;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+}
+
+.author {
+  text-align: right;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a, .description p {
+  font-size: 18px;
+  color: #f9faf8;
+  text-decoration: none;
+}
+
+img.kittens {
+  width: 300px;
+  height: auto;
+}
+
+button {
+  background-color: #3882f6;
+  border-style: none;
+  padding: 8px 28px;
+  border-radius: 5px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: auto;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  color: #f9faf8;
+}
