@@ -70,8 +70,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  justify-content: space-between;
-  gap: 42px;
+  gap: 32px;
+}
+
+.info-img div {
+  flex: 1 1 0;
 }
 
 .info-img img {
