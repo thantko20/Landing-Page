@@ -119,6 +119,15 @@ body {
   gap: 24px;
 }
 
+.contact div {
+  line-height: 6px;
+}
+
+.contact .text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
 ul {
   list-style-type: none;
 }
