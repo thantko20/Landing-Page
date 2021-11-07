@@ -6,6 +6,8 @@ This project is a part of [The Odin Project](https://www.theodinproject.com/home
 
 The design heavily relies on `flexbox`.
 The original design was given by the assignment.
+
+**Original Image**
 ![original_image](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png)
 
 # Credits
