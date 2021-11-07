@@ -59,7 +59,6 @@ body {
   margin: 32px 0;
   justify-content: space-between;
   gap: 16px;
-  align-items: flex-end;
 }
 
 .description {
@@ -116,6 +115,7 @@ a, .description p {
 img.kittens {
   width: 300px;
   height: auto;
+  align-self: flex-end;
 }
 
 button {
